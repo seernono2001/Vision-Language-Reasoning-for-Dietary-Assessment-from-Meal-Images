@@ -8,3 +8,10 @@ Semester project CVSE for building a system that detects the nutritional values 
 4. Compute a trained health score vector given the nutritional metrics.
 
 ## TODOS
+
+## Important Dates
+| Dates  |  |
+| ------------- | ------------- |
+| 4/3  | Project Feasibility Study  |
+| 4/24  | Project Midterm Report  |
+| 5/4  | Project Final Report  |
