@@ -14,10 +14,11 @@ retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 llm = ChatGroq(model="llama-3.3-70b-versatile", api_key="")
 # llm = ChatOpenAI(model="gpt-4o", api_key="sk-xxxxxxxxxxxxxxxx")      //If we're back using ChatGPT
 qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
-detected_foods = ["chicken", "rice", "vegetables"]
+detected_foods = ["chicken", "rice", "vegetables"]      # Will fix this part, just for testing
 
 # Run RAG chain
-query = f"Analyze the nutrition of this meal: {', '.join(detected_foods)}"
+query = f"Analyze the nutrition of this meal: {', '.join(detected_foods)}"           # Could discuss which query would be better
 answer = qa_chain.run(query)
 
 print(answer)
+
