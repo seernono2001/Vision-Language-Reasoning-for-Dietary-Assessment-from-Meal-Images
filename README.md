@@ -28,6 +28,27 @@ python RAG_model.py
 You will need to add an API key by yourself, you can use Groq to get one for testing:
 https://console.groq.com/
 
+
+## Detailed Setup
+1. Clone a copy of this repository to your local machine
+2. Open a terminal and navigate to the folder
+3. Once inside the folder, make a new python environment (this creates a new environment named venv):
+    - ``` python -m venv venv ```
+4. Activate your environment:
+    - Windows: ```.\venv\Scripts\activate```
+    - Mac: ```source venv/bin/activate```
+5. Once your environment is activated, you should see:
+    - Windows: ```(venv) C:\...your folder path...>```
+    - Mac: ```(venv) ... $```
+6. Now install the required libraries:
+    - ```pip install -r requirements.txt```
+7. Run commands:
+   `python file_name.py`
+8. When finished, deactivate your environment:
+    - ```deactivate```
+    
+Add any additional required libraries to the requirements.txt file
+
 ## Important Dates
 | Dates  |  |
 | ------------- | ------------- |
