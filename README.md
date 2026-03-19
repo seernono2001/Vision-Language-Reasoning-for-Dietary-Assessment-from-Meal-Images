@@ -7,7 +7,26 @@ Semester project CVSE for building a system that detects the nutritional values 
 3. A reliable mapping from the predicted food classes to nutritional values, integrating the information distilled from visual detection, including portion-size estimates, to produce accurate estimates of calories and macronutrients, e.g., mapping a detected pizza slice to an estimated caloric and nutritional profile such as 300 calories and 5 g of protein.
 4. Compute a trained health score vector given the nutritional metrics.
 
-## TODOS
+## Quickstart
+Inside the project folder, run the following
+- **Windows:**  
+``` 
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt  
+python RAG_model.py
+```
+- **Mac/Linux:**
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python RAG_model.py
+```
+
+- **Note:**
+You will need to add an API key by yourself, you can use Groq to get one for testing:
+https://console.groq.com/
 
 ## Important Dates
 | Dates  |  |
